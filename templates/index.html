@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    
+    <title>Sotela's tours</title>
+</head>
+
+<body>
+
+    <section>
+     <header>
+         <a href="#" class="logo" >Tours</a>
+         <div class="toggle" onclick="toggleMenu();"></div>
+     </header>
+     <div class="content">
+         <h2>Wanna explore<br>Costa Rica?</h2>
+     </div>
+     <div class="play" onclick="videoTogle();">
+         <img src="../statics/img/play.png" alt=""><span>See what you'll found!</span>
+     </div>
+    </section>
+    <ul class="sci">
+        <li><a href="#"><img src="../statics/img/facebook.png" alt=""></a></li>
+        <li><a href="#"><img src="../statics/img/whatsapp.png" alt=""></a></li>
+    </ul>
+    <div class="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Booking</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="trailer">
+        <video controls="True" src="../statics/video/clip.mp4"></video>
+        <img src="../statics/img/close.png" onclick="videoTogle();" class="close">
+    </div>
+ <script src="../js/funtions.js"></script>   
+</body>
+</html>
